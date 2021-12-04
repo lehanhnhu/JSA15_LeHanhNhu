@@ -1,0 +1,43 @@
+body{
+    background-color: darkgray;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 100%;
+    height: 60px;
+    background-image: url(https://preview.uideck.com/items/mate/img/logo.png);
+}
+.column {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.ul {
+    display: flex;
+}
+ul li {
+    padding: 0 8px;
+    font-size: 15px;
+    font-weight:600;
+    display:inline;
+}
+ul li a {
+    color:white;
+    border: 1px solid rgba(0, 0, 0,0 );
+    padding: 6px 14px;
+    border-radius:30px;
+}
+ul li a:active{
+    background-color:rgb(38, 241, 11);
+    border-radius:30px;
+}
+.active{
+    background-color:rgb(39, 177, 113);
+}
